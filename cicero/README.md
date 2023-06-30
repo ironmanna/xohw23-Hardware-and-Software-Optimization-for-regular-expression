@@ -12,7 +12,7 @@ Here it follows an high level overview of Cicero Engines and how they can be com
 ![cicero_engine_multi_char](./figures/cicero_multi_new.png)
 ![cicero_multi_new_interconnection 1](./figures/cicero_engine_multi_char.png)
 
-Cicero has its own [compiler](https://github.com/ironmanna/xohw23-Hardware-and-Software-Optimization-for-regular-expression/cicero_compiler) that converts REs in our custom ISA.
+Cicero has its own [compiler](https://github.com/ironmanna/xohw23-Hardware-and-Software-Optimization-for-regular-expression/tree/main/cicero_compiler) that converts REs in our custom ISA.
 
 
 

@@ -1,5 +1,5 @@
 # re2compiler
-A compiler for [CICERO](https://github.com/ironmanna/xohw23-Hardware-and-Software-Optimization-for-regular-expression/cicero)
+A compiler for [CICERO](https://github.com/ironmanna/xohw23-Hardware-and-Software-Optimization-for-regular-expression/tree/main/cicero)
 
 ---------------------------------------
 # How to start?
@@ -21,7 +21,7 @@ Very simple!
   output	= re2compiler.compile(data=data)
   print(output)
   ```
-  ![screen shot example](https://github.com/ironmanna/xohw23-Hardware-and-Software-Optimization-for-regular-expression/cicero_compiler/blob/master/wiki/howto.PNG)
+  ![screen shot example](https://github.com/ironmanna/xohw23-Hardware-and-Software-Optimization-for-regular-expression/blob/main/cicero_compiler/wiki/howto.PNG)
   
 # Optional arguments:
   
@@ -29,11 +29,11 @@ Very simple!
 |----------------------------|----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | -h, --help                  | show this help message and exit                                                              |    
 | -data [DATA]                | allows to pass the input string representing the regular expression directly via parameter . |
-| -dotast DOTAST              | save abstract syntax tree representation using dot format in the given file.                 |![abstract syntax tree example](https://github.com/ironmanna/xohw23-Hardware-and-Software-Optimization-for-regular-expression/cicero_compiler/blob/master/wiki/ast.dot.svg)
-| -dotirlowered DOTIRLOWERED  | save ir representation using dot format in the given file.                                   |![ir](https://github.com/ironmanna/xohw23-Hardware-and-Software-Optimization-for-regular-expression/cicero_compiler/blob/master/wiki/ir.dot.svg)
-| -dotcode DOTCODE            | save a code representatio using dot format in the given file.                                |![code](https://github.com/ironmanna/xohw23-Hardware-and-Software-Optimization-for-regular-expression/cicero_compiler/blob/master/wiki/code.dot.svg) 
+| -dotast DOTAST              | save abstract syntax tree representation using dot format in the given file.                 |![abstract syntax tree example](https://github.com/ironmanna/xohw23-Hardware-and-Software-Optimization-for-regular-expression/blob/main/cicero_compiler/wiki/ast.dot.svg)
+| -dotirlowered DOTIRLOWERED  | save ir representation using dot format in the given file.                                   |![ir](https://github.com/ironmanna/xohw23-Hardware-and-Software-Optimization-for-regular-expression/blob/main/cicero_compiler/wiki/ir.dot.svg)
+| -dotcode DOTCODE            | save a code representatio using dot format in the given file.                                |![code](https://github.com/ironmanna/xohw23-Hardware-and-Software-Optimization-for-regular-expression/blob/main/cicero_compiler/wiki/code.dot.svg) 
 | -o [O]                      | output file containing the code that represent the regular expression.                       |
-| -O1                         | perform simple optimization                                                                  |![optimized code](https://github.com/ironmanna/xohw23-Hardware-and-Software-Optimization-for-regular-expression/cicero_compiler/blob/master/wiki/code.dot.optimized.svg)
+| -O1                         | perform simple optimization                                                                  |![optimized code](https://github.com/ironmanna/xohw23-Hardware-and-Software-Optimization-for-regular-expression/blob/main/cicero_compiler/wiki/code.dot.optimized.svg)
 
 
 If you find this repository useful, please use the following citation about the original implementation of Cicero at 16 bit:
