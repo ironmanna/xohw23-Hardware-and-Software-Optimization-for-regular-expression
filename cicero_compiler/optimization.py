@@ -386,7 +386,8 @@ def check_infinite_loops(start_node :ir.IrInstr):
 				reachable_from_without_match[x] = []
 				if not ( isinstance(x, ir.Match) or 
 						 isinstance(x, ir.Match_any) or
-						 isinstance(x, ir.MatchRange)) :
+						 isinstance(x, ir.MatchRange) or
+                         isinstance(x, ir.NotMatchRange)) :
 					reachable_from_without_match[x] = x.children
 							
 
